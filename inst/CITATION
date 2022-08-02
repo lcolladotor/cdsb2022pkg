@@ -1,0 +1,29 @@
+pkgVer <- function(pkg) {
+    if (!exists("meta") || is.null(meta)) meta <- packageDescription(pkg)
+    ver <- meta$Version
+    paste0('https://github.com/lcolladotor/cdsb2022pkg/', pkg, ' - R package version ', ver)
+}
+
+c(
+
+    bibentry(bibtype="manual",
+        title = "",
+        author = personList(
+            as.person("lcolladotor")
+        ),
+        year = format(Sys.Date(), "%Y"),
+        url = "http://www.bioconductor.org/packages/cdsb2022pkg",
+        note = pkgVer('cdsb2022pkg'),
+        doi = '10.18129/B9.bioc.cdsb2022pkg'
+    ),
+    bibentry(bibtype="article",
+        title = "",
+        author = personList(
+            as.person("lcolladotor")
+        ),
+        year = format(Sys.Date(), "%Y"),
+        journal = "bioRxiv",
+        doi = "10.1101/TODO",
+        url = "https://www.biorxiv.org/content/10.1101/TODO"
+    )
+)
