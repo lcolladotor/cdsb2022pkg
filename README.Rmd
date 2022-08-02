@@ -18,6 +18,10 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![GitHub issues](https://img.shields.io/github/issues/lcolladotor/cdsb2022pkg)](https://github.com/lcolladotor/cdsb2022pkg/issues)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/lcolladotor/cdsb2022pkg)](https://github.com/lcolladotor/cdsb2022pkg/pulls)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![BioC status](http://www.bioconductor.org/shields/build/release/bioc/cdsb2022pkg.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/cdsb2022pkg)
+[![R-CMD-check-bioc](https://github.com/lcolladotor/cdsb2022pkg/actions/workflows/R-CMD-check-bioc.yaml/badge.svg)](https://github.com/lcolladotor/cdsb2022pkg/actions/workflows/R-CMD-check-bioc.yaml)
+[![Codecov test coverage](https://codecov.io/gh/lcolladotor/cdsb2022pkg/branch/master/graph/badge.svg)](https://app.codecov.io/gh/lcolladotor/cdsb2022pkg?branch=master)
 <!-- badges: end -->
 
 The goal of `cdsb2022pkg` is to ...

@@ -9,6 +9,13 @@
 issues](https://img.shields.io/github/issues/lcolladotor/cdsb2022pkg)](https://github.com/lcolladotor/cdsb2022pkg/issues)
 [![GitHub
 pulls](https://img.shields.io/github/issues-pr/lcolladotor/cdsb2022pkg)](https://github.com/lcolladotor/cdsb2022pkg/pulls)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![BioC
+status](http://www.bioconductor.org/shields/build/release/bioc/cdsb2022pkg.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/cdsb2022pkg)
+[![R-CMD-check-bioc](https://github.com/lcolladotor/cdsb2022pkg/actions/workflows/R-CMD-check-bioc.yaml/badge.svg)](https://github.com/lcolladotor/cdsb2022pkg/actions/workflows/R-CMD-check-bioc.yaml)
+[![Codecov test
+coverage](https://codecov.io/gh/lcolladotor/cdsb2022pkg/branch/master/graph/badge.svg)](https://app.codecov.io/gh/lcolladotor/cdsb2022pkg?branch=master)
 <!-- badges: end -->
 
 The goal of `cdsb2022pkg` is to …
@@ -78,18 +85,36 @@ print(citation('cdsb2022pkg'), bibtex = TRUE)
 #> 
 #> To cite package 'cdsb2022pkg' in publications use:
 #> 
-#>   Collado-Torres L (2022). _cdsb2022pkg: Demo de biocthis para el
-#>   taller CDSB2022_. R package version 0.99.0,
-#>   <https://github.com/lcolladotor/cdsb2022pkg>.
+#>   lcolladotor (2022). _Demo de biocthis para CDSB2022_.
+#>   doi:10.18129/B9.bioc.cdsb2022pkg
+#>   <https://doi.org/10.18129/B9.bioc.cdsb2022pkg>,
+#>   https://github.com/lcolladotor/cdsb2022pkg/cdsb2022pkg - R package
+#>   version 0.99.0, <http://www.bioconductor.org/packages/cdsb2022pkg>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Manual{,
-#>     title = {cdsb2022pkg: Demo de biocthis para el taller CDSB2022},
-#>     author = {Leonardo Collado-Torres},
+#>     title = {Demo de biocthis para CDSB2022},
+#>     author = {{lcolladotor}},
 #>     year = {2022},
-#>     note = {R package version 0.99.0},
-#>     url = {https://github.com/lcolladotor/cdsb2022pkg},
+#>     url = {http://www.bioconductor.org/packages/cdsb2022pkg},
+#>     note = {https://github.com/lcolladotor/cdsb2022pkg/cdsb2022pkg - R package version 0.99.0},
+#>     doi = {10.18129/B9.bioc.cdsb2022pkg},
+#>   }
+#> 
+#>   lcolladotor (2022). "Demo de biocthis para CDSB2022." _bioRxiv_.
+#>   doi:10.1101/TODO <https://doi.org/10.1101/TODO>,
+#>   <https://www.biorxiv.org/content/10.1101/TODO>.
+#> 
+#> A BibTeX entry for LaTeX users is
+#> 
+#>   @Article{,
+#>     title = {Demo de biocthis para CDSB2022},
+#>     author = {{lcolladotor}},
+#>     year = {2022},
+#>     journal = {bioRxiv},
+#>     doi = {10.1101/TODO},
+#>     url = {https://www.biorxiv.org/content/10.1101/TODO},
 #>   }
 ```
 
