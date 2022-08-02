@@ -1,14 +1,16 @@
 Package: cdsb2022pkg
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Demo de biocthis para el taller CDSB2022
+Version: 0.99.0
+Date: 2022-08-02
 Authors@R: 
     person("Leonardo", "Collado-Torres", , "lcolladotor@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-2140-308X"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: Estamos usando biocthis como parte del taller de la CDSB2022. Para
+    obtener más información, favor de revisar https://tinyurl.com/cdsb2021pkg.
+License: Artistic-2.0
+URL: https://github.com/lcolladotor/cdsb2022pkg
+BugReports: https://support.bioconductor.org/t/cdsb2022pkg
+biocViews: Software
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
-URL: https://github.com/lcolladotor/cdsb2022pkg
-BugReports: https://github.com/lcolladotor/cdsb2022pkg/issues
