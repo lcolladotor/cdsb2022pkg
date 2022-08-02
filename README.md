@@ -47,7 +47,15 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library("cdsb2022pkg")
+#> 
+#> Attaching package: 'cdsb2022pkg'
+#> The following object is masked from 'package:utils':
+#> 
+#>     demo
 ## basic example code
+## 
+demo(3)
+#> [1] 9
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
@@ -81,7 +89,7 @@ Please run this yourself to check for any updates on how to cite
 **cdsb2022pkg**.
 
 ``` r
-print(citation('cdsb2022pkg'), bibtex = TRUE)
+print(citation("cdsb2022pkg"), bibtex = TRUE)
 #> 
 #> To cite package 'cdsb2022pkg' in publications use:
 #> 
